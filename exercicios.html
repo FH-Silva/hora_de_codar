@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de Codar!</title>
+
+    <script>
+        //Escreva um programa em Javascript e crie uma variável chamada "nome_do_carro" e atribua-a um valor "Fusca". Exiba-a ao usuário.
+        var nome_do_carro = "Fusca";
+        alert(nome_do_carro);
+
+        //Escreva um programa em Javascript em que o usuário informe o seu nome e exiba a mensagem "Olá, [NomeDoUsuario]".
+        var nome = prompt("Como se chama?!");
+        alert("Olá, " + nome);
+
+        //Escreva um programa em Javascript em que o usuário informe o seu nome e em seguida o programa perguntará a idade do usuário. Agora o programa deve exibir a mensagem "Olá, [NomeDoUsuario], sua idade é [idade]".
+        var nome1 = prompt("Qual é seu o nome?!");
+        var idade = prompt("Agora, qual a sua idade?");
+        alert("Olá, " + nome1 + ", sua idade é " + idade);
+
+        //Considerando a figura abaixo, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável. (Formas: Retângulo, Quadrado, Losango, Trapézio, Paralelogramo, Triângulo, Círculo)
+        
+        //Retângulo
+        alert("Calculadora Geométrica: ");
+        var base = prompt("Digite o valor para da base do retângulo: ");
+        var altura = prompt("Agora digite o valor da altura: ");
+        alert("Área = " + base * altura);
+
+        //Quadrado
+        var lados = prompt("Digite o valor dos lados do quadrado: ");
+        alert("Área = " + lados * lados);
+
+        //Losango
+        var maior = prompt("Digite o valor da diagonal maior do losango: ");
+        var menor = prompt("Agora digite o valor da diagonal menor: ");
+        alert("Área = " + maior * menor / 2);
+
+        //Trapézio
+        var maior1 = prompt("Digite o valor da base maior do trapézio: ");
+        var maior1 = parseInt(maior1);
+        var menor1 = prompt("Agora digite a base menor: ");
+        var menor1 = parseInt(menor1);
+        var alt = prompt("E, por fim, a altura: ");
+        alert("Área = " + (maior1 + menor1) * alt / 2);
+
+        //Paralelogramo
+        var base1 = prompt("Digite o valor da base do paralelogramo: ");
+        var alt1 = prompt("Agora o valor da altura: ");
+        alert("Área = " + base1 * alt1);
+
+        //Triângulo
+        var base2 = prompt("Digite o valor da base triângulo: ");
+        var alt2 = prompt("Agora digite o valor da altura: ");
+        alert("Área = " + base2 * alt2 / 2);
+
+        //Círculo quase preciso
+        var raio = prompt("Qual o raio do circulo? ");
+        alert("Área = " + raio * raio * 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679821480865132823066470938446095505822317253594081284811174502841027019385211055596);
+    </script>
+</head>
+
+<body>
+    
+</body>
+</html>
